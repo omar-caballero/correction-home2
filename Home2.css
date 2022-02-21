@@ -26,9 +26,80 @@ a {
     text-decoration: none;
 }
 
-.nav-item:hover {
+.resaltar:hover {
     background-color: red;
+    color: white !important;
+}
+
+.menu-rp {
+    width: 0%;
+    height: 0%;
+    z-index: 9999999;
+    position: fixed;
+    background: rgba(184, 97, 97, 0.97);
+    right: 0;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+
+.section-block {
+    width: 100%;
+    position: relative;
+    float: left;
+}
+
+.sec-link-menu-rp {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.sec-link-menu-rp a {
     color: white;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.sec-close-menu {
+    padding-top: 8px;
+    padding-bottom: 50px;
+}
+
+.sec-menu-rp {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 30px 0px 10px;
+}
+
+.btn-menu-rp {
+    width: 25px;
+    height: auto;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.line-btn-menu-rp {
+    width: 100%;
+    height: 3px;
+    float: left;
+    background: #030303;
+    margin: 2px 0;
+    border-radius: 50px;
+}
+
+.no-btn {
+    background: transparent !important;
+    border: none;
+    outline: none;
+}
+
+.menu-rp-btn {
+    font-size: 32px;
+    color: #fff;
+    font-weight: bold;
+    z-index: 999999;
+    height: 32px;
+    width: 32px;
 }
 
 .caption-center {
